@@ -1,0 +1,46 @@
+/******  colors *******/
+
+:root {
+  --color-navbar-color: #ff6900;
+  --color-banner-color-red: #ff0000;
+  --color-banner-color-green: #008000;
+  --color-primary-color: #ffffff;
+  --color-secondary-color: #1a1a1a;
+}
+
+.navbar-background-color {
+  background-color: var(--color-navbar-color);
+}
+
+.banner-color-red {
+  background-color: var(--color-banner-color-red);
+}
+
+.banner-color-green {
+  background-color: var(--color-banner-color-green);
+}
+
+.primary-color {
+  background-color: var(--color-primary-color);
+}
+
+.secondary-color {
+  background-color: var(--color-secondary-color);
+}
+
+
+/******  typography *******/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a {
+  font-weight: 600;
+  color: var(--color-primary-color);
+  font-size: 1rem;
+}
+
+nav img {
+  width: 10%;
+}
