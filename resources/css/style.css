@@ -1,3 +1,9 @@
+/******  GENERAL *******/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /******  colors *******/
 
 :root {
@@ -29,10 +35,11 @@
 }
 
 
-/******  typography *******/
+/******  HEADER *******/
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+header {
+  padding: 20px 0;
+  box-shadow: 0 2px 5px var(--color-secondary-color);
 }
 
 nav ul li a {
@@ -43,4 +50,9 @@ nav ul li a {
 
 nav img {
   width: 10%;
+  min-width: 100px;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
 }
