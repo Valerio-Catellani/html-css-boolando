@@ -481,6 +481,17 @@ ul {
   position: fixed;
 }
 
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
 
 
 /*********************** CURSOR **********************/

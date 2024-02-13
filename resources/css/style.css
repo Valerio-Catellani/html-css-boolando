@@ -114,3 +114,27 @@ main {
 .padding-banner {
   padding: 5px;
 }
+
+/************************  FOOTER *******************************/
+
+footer {
+  padding: 40px 0;
+}
+
+
+footer ul li {
+  display: inline-block;
+  padding: 10px 10px 10px 0;
+}
+
+footer ul li a {
+  color: var(--color-primary-color);
+}
+
+footer li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  font-size: 2rem;
+}
