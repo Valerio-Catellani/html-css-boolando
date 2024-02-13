@@ -18,28 +18,38 @@ body {
   background-color: var(--color-navbar-color);
 }
 
-.banner-color-red {
+.banner-background-color-red {
   background-color: var(--color-banner-color-red);
 }
 
-.banner-color-green {
+.banner-background-color-green {
   background-color: var(--color-banner-color-green);
 }
 
-.primary-color {
+.background-primary-color {
   background-color: var(--color-primary-color);
 }
 
-.secondary-color {
+.background-secondary-color {
   background-color: var(--color-secondary-color);
 }
 
+.primary-color {
+  color: var(--color-primary-color);
+}
+
+.secondary-color {
+  color: var(--color-secondary-color);
+}
 
 /******  HEADER *******/
 
 header {
   padding: 20px 0;
   box-shadow: 0 2px 5px var(--color-secondary-color);
+  z-index: 1000;
+  top: 0;
+  right: 0;
 }
 
 nav ul li a {
@@ -55,4 +65,45 @@ nav img {
 
 .menu li a:hover {
   text-decoration: underline;
+}
+
+/************************  MAIN *******************************/
+
+main {
+  margin-top: 200px
+}
+
+.card {
+  width: calc((100% - 40px) / 3);
+}
+
+.images:hover img:first-child {
+  display: none;
+}
+
+.images:hover img:nth-child(2) {
+  display: block;
+}
+
+/** banner **/
+
+.heart {
+  width: 50px;
+  height: 50px;
+  right: 0;
+  top: 10px;
+  line-height: 50px;
+}
+
+.heart:hover {
+  color: var(--color-banner-color-red)
+}
+
+.discount {
+  bottom: 40px;
+  left: 0;
+}
+
+.padding-banner {
+  padding: 5px;
 }

@@ -311,17 +311,41 @@ ul {
 }
 
 
-/**/
+/*text position*/
 
 .text-align-center {
   text-align: center;
 }
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+/* text decoration*/
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+
 
 
 /*********************** DISPLAY **********************/
 
 .display-inline-block {
   display: inline-block;
+}
+
+.display-inline {
+  display: inline;
+}
+
+.display-none {
+  display: none;
 }
 
 
