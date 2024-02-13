@@ -331,6 +331,9 @@ ul {
   text-decoration: line-through;
 }
 
+.text-uppercase {
+  text-transform: uppercase;
+}
 
 
 
@@ -348,6 +351,9 @@ ul {
   display: none;
 }
 
+.display-hidden {
+  visibility: hidden;
+}
 
 
 
