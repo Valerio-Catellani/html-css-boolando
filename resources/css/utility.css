@@ -343,6 +343,10 @@ ul {
   display: inline-block;
 }
 
+.display-block {
+  display: block;
+}
+
 .display-inline {
   display: inline;
 }
